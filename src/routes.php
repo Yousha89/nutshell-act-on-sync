@@ -7,6 +7,9 @@
  */
 
 $app->get('/', function($request, $response, $args) use ($app) {
+
+    // First test with api call
+    
     echo "<h4 style\"text-align: center;\">Lets try to fetch some data from current nutshell account!</h4><br>";
     $curParams = array(
         'query'          => null,
