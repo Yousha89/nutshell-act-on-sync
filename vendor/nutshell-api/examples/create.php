@@ -33,6 +33,7 @@ $params = array(
 		),
 	),
 );
+
 $newContact = $api->call('newContact', $params);
 $newContactId = $newContact->id;
 
